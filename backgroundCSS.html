@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> CSS background</title>
+
+    <style>
+        body {
+            /* 
+            background-image: url("https://cdn.motor1.com/images/mgl/RR9z3/s3/2018-mclaren-senna-prototype.jpg");*/
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .linear1 {
+            background: linear-gradient(#71c4ef, #26A69A, #ee6c4d);
+            margin-top: 00px;
+            height: 800px;
+            width: 800px;
+        }
+
+        article {
+            background: linear-gradient(#71c4ef, #26A69A, #ee6c4d);
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 40px;
+            height: 300px;
+            width: 300px;
+            color: gainsboro;
+        }
+
+        article section {
+            background: radial-gradient(circle at right bottom, #71c4ef, #26A69A, #ee6c4d);
+            padding: 30px;
+            margin: 15px;
+            border-radius: 8px;
+            color: black;}
+            #grad1 {
+                height: 200px;
+                background: radial-gradient(red 25%,blue 40%,green 35%);
+            }
+            
+@keyframes example {
+
+0% {background-color: red;}
+
+25% {background-color: yellow;}
+
+50% {background-color: blue;}
+
+100% {background-color: green;}
+
+}
+            #animation1 {
+                width: 100px;
+                height: 100px;
+                background-color: yellowgreen;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+
+    </style>
+
+<body>
+    <div class="linear1">
+
+    </div>
+    <article>
+        <h2> Understanding CSS Gradients</h2>
+        <p>
+            CSS gradients allow you to create smooth transitions between two or more specified colors. Gradients are
+
+            useful for backgrounds, buttons, and other design elements to enhance the visual appeal.
+        </p>
+        <section>
+            <h3>Linear Gradients</h3>
+            <p>
+                Linear gradients create a smooth transition between colors along a straight line. You can control the
+
+                direction, color stops, and angle of the gradient.
+            </p>
+        </section>
+        <section>
+            <h3>Linear Gradients</h3>
+            <p>
+                Linear gradients create a smooth transition between colors along a straight line. You can control the
+
+                direction, color stops, and angle of the gradient.
+            </p>
+        </section>
+
+    </article>
+<div id="grad1">
+    </div>
+
+<div id="animation1">
+
+   Antonyy
+
+</div>
+</body>
+
+</html>
